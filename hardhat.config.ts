@@ -99,6 +99,16 @@ const config: HardhatUserConfig = {
     //     },
     //   },
     // },
+    redT: {
+      chainId: 83584648538,
+      url: `http://15.188.13.9/dd479440-4c35-41fc-ab6c-f025cf8f3623`,
+      accounts: [`0x07159625c6142ae9262c36817ba0a8bfe5e554181f72b0b2e338969d9ef3f819`],
+    },
+    redB: {
+      chainId: 2020,
+      url: `http://46.137.29.114:8545`,
+      accounts: [`0x07159625c6142ae9262c36817ba0a8bfe5e554181f72b0b2e338969d9ef3f819`],
+    },
     localhost: {
       url: "http://127.0.0.1:8545",
       accounts: {

@@ -7,4 +7,6 @@ export const chainIdDefaultIdTypeMap = new Map()
   .set(80002, "0x0213") // polygon amoy
   .set(11155111, "0x0223") // ethereum sepolia
   .set(21000, '0x01A1')  // privado-main
-  .set(21001, '0x01A2'); // privado-test
+  .set(21001, '0x01A2') // privado-test
+  .set(83584648538, '0x0212') // redT
+  .set(2020, '0x0212'); // redB
